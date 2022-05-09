@@ -1,0 +1,4 @@
+Apomonomeno Boske Probaton;-230/68/127;lonesheepfarm_x;byzantines;
+Irkraumalerutiksak Tupiq;354/79/259;loneartisan;inuits;
+Iglu;5/71/823;loneiglu2;inuits;
+Sunsan Ghar;238/71/-339;indiandesertedfarm;indian;
