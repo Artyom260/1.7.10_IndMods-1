@@ -1,4 +1,0 @@
-Kawagoe;-74/79/534;gunji;japanese;
-Magny-les-pâtures;11/66/-124;agricole;norman;
-Tordouet-la-fôret;-738/69/-1;agricole;norman;
-Karooren;558/70/506;religiousvillage;inuits;
