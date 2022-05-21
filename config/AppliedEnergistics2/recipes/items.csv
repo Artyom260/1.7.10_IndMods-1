@@ -4015,11 +4015,15 @@ minechem:fluid.molecule.sodiumBisulfate.name, Гидросульфат натр�
 minechem:fluid.molecule.sodiumSulfate.name, Сульфат натрия
 minechem:fluid.molecule.dimethyltryptamine.name, Диметилтриптамин
 minechem:fluid.molecule.oleicAcid.name, Oleic Acid
+mw:TitaniumOre, Titanium Ore
 mw:LeadOre, Lead Ore
 mw:CopperOre, Copper Ore
-mw:GraphiteOre, Graphite Ore
 mw:TinOre, Tin Ore
 mw:SulfurOre, Sulfur Ore
+mw:BauxiteOre, Bauxite Ore
+mw:SiliconOre, Silicon Ore
+mw:TantalumOre, Tantalum Ore
+mw:RubyOre, Ruby Ore
 OpenComputers:accessPoint:0, §cТочка доступа§7
 OpenComputers:adapter:0, Адаптер
 OpenComputers:assembler:0, Сборщик
@@ -6617,11 +6621,15 @@ appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Кирп�
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Блок деш
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Марсианский камень
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Урановая руда
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Titanium Ore
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Lead Ore
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Copper Ore
-appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Graphite Ore
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Tin Ore
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Bauxite Ore
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Silicon Ore
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Tantalum Ore
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Ruby Ore
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Блок хамелиума
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Камень края
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 1)
@@ -7260,7 +7268,6 @@ appliedenergistics2:item.ItemMultiMaterial:47, Сингулярность
 appliedenergistics2:item.ItemMultiMaterial:45, Пыль небесного камня
 appliedenergistics2:item.ItemMultiMaterial:41, Беспроводной приёмник
 appliedenergistics2:item.ItemMultiMaterial:42, Беспроводной усилитель
-appliedenergistics2:item.ItemMultiMaterial:40, Деревянная шестерня
 appliedenergistics2:item.ItemMultiPart:300, Плоскость истребления
 appliedenergistics2:item.ItemMultiPart:120, Кабельный якорь
 appliedenergistics2:item.ItemMultiPart:20, МЭ закрытый кабель - Белый
@@ -7625,6 +7632,7 @@ chisel:diamondChisel, item.null.name
 chisel:obsidianChisel, item.null.name
 chisel:cloudinabottle, Облако в бутылке
 chisel:smashingrock, Сокрушительный камень
+craftguide:craftguide_item, Crafting Guide
 Forestry:fertilizerBio, Компост
 Forestry:fertilizerCompound, Минеральное удобрение
 Forestry:apatite, Апатит
@@ -9866,100 +9874,39 @@ minechem:minechemBucket.molecule.molecule.sodiumbisulfate, Ведро химик
 minechem:minechemBucket.molecule.molecule.sodiumsulfate, Ведро химиката
 minechem:minechemBucket.molecule.molecule.dimethyltryptamine, Ведро химиката
 minechem:minechemBucket.molecule.molecule.oleicacid, Ведро химиката
-mw:tactical_push_backpack, Tactical Push Pack
-mw:desert_tactical_push_backpack, (Desert) Tactical Push Pack
-mw:combat_sustainment_backpack, Combat Sustainment Backpack
-mw:forest_combat_sustainment_backpack, (Forest) Combat Sustainment Backpack
-mw:blackhawk_stealth_backpack, Blackhawk Stealth Backpack
-mw:urban_blackhawk_stealth_backpack, (Urban) Blackhawk Stealth Backpack
-mw:forest_blackhawk_stealth_backpack, (Forest) Blackhawk Stealth Backpack
-mw:assault_backpack, Assault Backpack
-mw:urban_assault_backpack, (Urban) Assault Backpack
-mw:forest_assault_backpack, (Forest) Assault Backpack
-mw:tru_spec_cordura_backpack, Tru-Spec Cordura Backpack
-mw:desert_tru_spec_cordura_backpack, (Desert) Tru-Spec Cordura Backpack
-mw:black_tru_spec_cordura_backpack, (Black) Tru-Spec Cordura Backpack
-mw:mil_spec_alice_backpack, Mil-Spec Alice Backpack
-mw:desert_mil_spec_alice_backpack, (Desert) Mil-Spec Alice Backpack
-mw:urban_mil_spec_alice_backpack, (Urban) Mil-Spec Alice Backpack
-mw:duffle_bag, Duffle Bag
-mw:tri_zip_backpack, Tri-Zip Backpack
-mw:pilgrim_backpack, Pilgrim Backpack
-mw:f4m_terminator_backpack, F4M Terminator Backpack
-mw:urban_f4m_terminator_backpack, (Urban) F4M Terminator Backpack
-mw:forest_f4m_terminator_backpack, (Forest) F4M Terminator Backpack
-mw:bergen_backpack, Bergen Backpack
-mw:forest_bergen_backpack, (Forest) Bergen Backpack
-mw:urban_bergen_backpack, (Urban) Bergen Backpack
-mw:sso_attack_2, SSO Attack II Backpack
-mw:forest_sso_attack_2, (Forest) SSO Attack II Backpack
-mw:g2_gunslinger2_backpack, G2 Gunslinger II Backpack
-mw:flyye_field_compact_plate_carrier, Flyye Field Compact Plate Carrier
-mw:forest_flyye_field_compact_plate_carrier, (Forest) Flyye Field Compact Plate Carrier
-mw:black_flyye_field_compact_plate_carrier, (Black) Flyye Field Compact Plate Carrier
-mw:flyye_molle_rrv, Flyye Molle RRV
-mw:black_flyye_molle_rrv, (Black) Flyye Molle RRV
-mw:urban_flyye_molle_rrv, (Urban) Flyye Molle RRV
-mw:force_recon_vest, Force Recon Vest
-mw:forest_force_recon_vest, (Forest) Force Recon Vest
-mw:urban_force_recon_vest, (Urban) Force Recon Vest
-mw:black_force_recon_vest, (Black) Force Recon Vest
-mw:umbrella_corp_vest, item.mw_umbrella_corp_vest.name
-mw:hammer_down_vest, item.mw_hammer_down_vest.name
-mw:hecu_vest, item.mw_hecu_vest.name
-mw:juggernaut_body_armor, item.mw_juggernaut_body_armor.name
-mw:marine_vest, item.mw_marine_vest.name
-mw:swat_vest, item.mw_swat_vest.name
-mw:fort_armor, 6B43 6A Body Armor
-mw:viper_sf, item.mw_viper_sf.name
-mw:viper_sf_green, item.mw_viper_sf_green.name
-mw:viper_sf_desert, item.mw_viper_sf_desert.name
-mw:blackhawk_ballistic_vest, item.mw_blackhawk_ballistic_vest.name
-mw:scar_vest, item.mw_scar_vest.name
-mw:leadingot, Lead Ingot
+mw:Electronics, Electronic Circuit
+mw:OpticGlass, Optic Glass
+mw:Cloth, Cloth
+mw:TanCloth, Tan Cloth
+mw:GreenCloth, Green Cloth
+mw:AluminumPlate, Aluminum Plate
+mw:SteelPlate, Steel Plate
+mw:BigSteelPlate, Big Steel Plate
+mw:MiniSteelPlate, Small Steel Plate
+mw:MetalComponents, Metal Components
+mw:Transistor, Transistor
+mw:Resistor, Resistor
+mw:Inductor, Inductor
+mw:Diode, Diode
+mw:Capacitor, Capacitor
+mw:CopperWiring, Copper Wiring
+mw:Piston, Piston
+mw:LaserPointer, Laser Cell
+mw:plastic, Plastic
+mw:TitaniumIngot, Titanium Ingot
+mw:LeadIngot, Lead Ingot
 mw:CopperIngot, Copper Ingot
-mw:GraphiteChunk, Graphite Chunk
 mw:TinIngot, Tin Ingot
-mw:SulfureDust, Sulfur Dust
+mw:SulfurDust, Sulfur Dust
+mw:AluminumIngot, Aluminum Ingot
+mw:Silicon, Silicon Ingot
+mw:TantalumIngot, Tantalum Ingot
+mw:Ruby, Ruby
 mw:SteelDust, Steel Dust
 mw:SteelIngot, Steel Ingot
-mw:GunmetalIngot, Gunmetal Ingot
-mw:GunmetalPlate, Gunmetal Plate
-mw:GunmetalComposite, Gunmetal Composite
-mw:CarbonComposite, Carbon Composite
-mw:CarbonFiber, Carbon Fiber
-mw:SyntheticPolymerComposite, Synthetic Polymer Composite
-mw:SyntheticPlastic, Synthetic Plastic
-mw:PlasticPlate, Plastic Plate
-mw:santa_helmet, Santa Beret
-mw:santa_chest, Santa Coat
-mw:santa_boots, Santa Boots
-mw:nazisanta_helmet, Third Reich Santa Hat
-mw:nazisanta_chest, Third Reich Santa Coat
-mw:nazisanta_boots, Third Reich Santa Boots
-mw:spec_ops_helmet, Spec-Ops Helmet
-mw:spec_ops_chest, Spec-Ops Torso
-mw:spec_ops_boots, Spec-Ops Boots
-mw:hecu_helmet, H.E.C.U. Helmet
-mw:hecu_chest, H.E.C.U. Torso Fatigues
-mw:hecu_boots, H.E.C.U. Boots
-mw:juggernaut_helmet, Juggernaut Helmet
-mw:juggernaut_chest, Juggernaut Chestpiece
-mw:juggernaut_boots, Juggernaut Boots
-mw:merc_helmet, Blackhawk Merc. Helmet
-mw:merc_chest, Blackhawk Merc. Torso
-mw:merc_boots, Blackhawk Merc. Boots
-mw:stars_chest, S.T.A.R.S. Torso Fatigues
-mw:stars_boots, S.T.A.R.S. Boots
 mw:marine_helmet, Marine Helmet
 mw:marine_chest, Marine Chestplate
 mw:marine_boots, Marine Boots
-mw:ncr_helmet, NCR helmet
-mw:ncr_chest, NCR Fatigues
-mw:ncr_boots, NCR Boots
-mw:t60_helmet, T-60 Helmet
-mw:t60_chest, T-60 ChestRig 
-mw:t60_boots, T-60 Boots
 mw:spetznaz_helmet, Spetsnaz Helmet
 mw:spetznaz_chest, Spetsnaz Chestplate
 mw:spetznaz_boots, Spetsnaz Boots
@@ -9967,163 +9914,36 @@ mw:swat_helmet, Swat Helmet
 mw:swat_chest, Swat Chestplate
 mw:swat_boots, Swat Boots
 mw:tactical_helmet, Tactical Nightvision Goggles
+mw:tactical_chest, Spec-ops Vest
+mw:tactical_boots, Spec-ops Boots
 mw:m40gasmask_helmet, M40 Gas Mask
-mw:umbrella_helmet, Umbrella Corp. Helmet
-mw:umbrella_chest, Umbrella Corp. Chestpiece
-mw:umbrella_boots, Umbrella Corp. Boots
-mw:scar_helmet, SCAR Combat EVA Helmet
-mw:scar_chest, SCAR Combat EVA Rig
-mw:scar_boots, SCAR Combat EVA Boots
-mw:kcpd_chest, KCPD vest
-mw:kcpd_boots, KCPD boots
-mw:mkvi_main_helmet, Spartan MkVI Helmet (Green)
-mw:mkvi_main_chest, Spartan MkVI Chestpiece (Green)
-mw:mkvi_main_boots, Spartan MkVI Boots (Green)
-mw:mkvidefault_helmet, Spartan MkVI Helmet
-mw:mkvidefault_chest, Spartan MkVI Chestpiece
-mw:mkvidefault_boots, Spartan MkVI Boots
-mw:mkviblue_helmet, Spartan MkVI Helmet (Blue)
-mw:mkviblue_chest, Spartan MkVI Chestpiece (Blue)
-mw:mkviblue_boots, Spartan MkVI Boots (Blue)
-mw:mkvired_helmet, Spartan MkVI Helmet (Red)
-mw:mkvired_chest, Spartan MkVI Chestpiece (Red)
-mw:mkvired_boots, Spartan MkVI Boots (Red)
-mw:mkv_default_helmet, Spartan MkV Helmet
-mw:mkv_default_chest, Spartan MkV Chestpiece
-mw:mkv_default_boots, Spartan MkV Boots
-mw:mkv_green_helmet, Spartan MkV Helmet (Green)
-mw:mkv_green_chest, Spartan MkV Chestpiece (Green)
-mw:mkv_green_boots, Spartan MkV Boots (Green)
-mw:mkv_blue_helmet, Spartan MkV Helmet (Blue)
-mw:mkv_blue_chest, Spartan MkV Chestpiece (Blue)
-mw:mkv_blue_boots, Spartan MkV Boots (Blue)
-mw:mkv_red_helmet, Spartan MkV Helmet (Red)
-mw:mkv_red_chest, Spartan MkV Chestpiece (Red)
-mw:mkv_red_boots, Spartan MkV Boots (Red)
-mw:mkv_default_odst_helmet, ODST Integ. MkV Helmet
-mw:mkv_default_odst_chest, ODST Integ. MkV Chestpiece
-mw:mkv_default_odst_boots, ODST Integ. MkV Boots
-mw:mkv_green_odst_helmet, ODST Integ. MkV Helmet (Green)
-mw:mkv_green_odst_chest, ODST Integ. MkV Chestpiece (Green)
-mw:mkv_green_odst_boots, ODST Integ. MkV Boots (Green)
-mw:mkv_blue_odst_helmet, ODST Integ. MkV Helmet (Blue)
-mw:mkv_blue_odst_chest, ODST Integ. MkV Chestpiece (Blue)
-mw:mkv_blue_odst_boots, ODST Integ. MkV Boots (Blue)
-mw:mkv_red_odst_helmet, ODST Integ. MkV Helmet (Red)
-mw:mkv_red_odst_chest, ODST Integ. MkV Chestpiece (Red)
-mw:mkv_red_odst_boots, ODST Integ. MkV Boots (Red)
-mw:FABDefenseMount, FAB Defense Mount
-mw:ScarHandGuard, Scar Handguard
-mw:ACRHandGuard, ACR Handguard
-mw:M60HandGuard, M60 Handguard
-mw:M60E4Guard, M60E4 Handguard
-mw:M249HandGuard, M249 Handguard
-mw:ScarStock, Scar Stock
-mw:ScarHStock, Scar H Stock
-mw:ACRStock, ACR Stock
-mw:M1014Stock, M1014 Stock
-mw:M4BenelliStock, M4Benelli Stock
-mw:Spas12Stock, Spas12 Stock
-mw:M249Stock, M249 Stock
-mw:UTGTriRailHandGuard, UTG Tri Rail Handguard
-mw:MIMP5MHandGuard, item.mw_MIMP5MHandGuard.name
-mw:MIMP5TRRail, MI MP5 TR Rail
-mw:MIMP5MRail, MI MP5 M Rail
-mw:ShotgunRail, Shotgun Rail
-mw:Kar98Krail, item.mw_Kar98Krail.name
-mw:M60Rail, M60 Rail
-mw:MP5A5HandGuard, MP5A5 Handguard
-mw:MP5SDHandGuard, MP5SD Handguard
-mw:MP5HOGUEGrip, MP5 Hogue Grip
-mw:GlockHogueGrip, Glock Hogue Grip
-mw:GlockHogueGripTan, Glock Hogue Grip (Tan)
-mw:MP5A3Stock, MP5A3 Stock
-mw:MP5A4Stock, MP5A4 Stock
-mw:LVOAVHandGuard, LVOAV Handguard
-mw:M38HandGuard, M38 Handguard
-mw:Mk18HandGuard, Mk18 Handguard
-mw:M4MagpulHandGuard, M4 Magpul Handguard
-mw:M4MagpulHandGuardTan, M4 Magpul Handguard (Tan)
-mw:M4Receiver, M4 Receiver
-mw:VLTORReceiver, VLTOR Receiver
-mw:Placeholder, item.mw_Placeholder.name
-mw:PistolPlaceholder, item.mw_PistolPlaceholder.name
-mw:GripPlaceholder, item.mw_GripPlaceholder.name
-mw:LaserPlaceholder, item.mw_LaserPlaceholder.name
-mw:M4HandGuard, M4 Handguard
-mw:M16HandGuard, M16 Handguard
-mw:M4CarbineHandGuard, M4 Carbine Handguard
-mw:HeraArmsGrip, Hera Arms Grip
-mw:M4Grip, M4 Grip
-mw:M4GripTan, M4 Grip (Tan)
-mw:M4GripGray, M4 Grip (Gray)
-mw:AK47Grip, AK-47 Grip
-mw:AK101Grip, AK-101 Grip
-mw:AKErgoGrip, AK Ergo Grip
-mw:AK47stock, item.mw_AK47stock.name
-mw:AK101Stock, AK-101 Stock
-mw:CollapsableMOEStock, Collapsable MOE Stock
-mw:MagpulCTRStock, Magpul CTR Stock
-mw:MagpulCTRStockTan, Magpul CTR Stock (Tan)
-mw:MilSpecStock, Mil-Spec Stock
-mw:MilSpecStockTan, Mil-Spec Stock (Tan)
-mw:HeraArmsStock, Hera Arms Stock
-mw:HK416Stock, HK416 Stock
-mw:M16Stock, M16 Stock
-mw:HK416StockTan, HK416 Stock (Tan)
-mw:M16StockTan, M16 Stock (Tan)
-mw:AK47HandleGuard, AK-47 Handguard
-mw:AK101HandGuard, AK-101 Handguard
-mw:AKMagpulHandleGuard, AK Magpul Handguard
-mw:AKMagpulHandleGuardTan, AK Magpul Handguard (Tan)
-mw:MLOKHandguard, MLOK Handguard
-mw:MLOKExtendedHandguard, MLOK Extended Handguard
-mw:AK15HandleGuard, AK-15 Handguard
-mw:AK47Dustcover, AK-47 Dust Cover
-mw:AK101DustCover, AK-101 Dust Cover
-mw:VeprDustCover, Vepr Dust Cover
-mw:AK15DustCover, AK-15 Dust Cover
-mw:M4FrontSight, AR Front Iron Sight
-mw:M60FrontSight, M60E4 Front Iron Sight
-mw:M38FrontSight, item.mw_M38FrontSight.name
-mw:PSO1, PSO-1 Scope
-mw:okp7, OKP-7 Sight
 mw:Reflex, 15 MOA Reflex
-mw:BijiaReflex, Bijia Reflex Sight
+mw:ColtRearSight, item.mw_ColtRearSight.name
+mw:okp7, OKP-7 Sight
 mw:Acog, Trigicon ACOG 
 mw:Specter, Elcan Specter SFOV4-A1 
+mw:Holographic, EOTech 512 A65 Holographic
 mw:Holographic2, EOTech EXPS3-0 (Tan)
-mw:HolographicAlt, EOTech 512 A65 Holographic (Black)
-mw:EotechHybrid2, item.mw_EotechHybrid2.name
-mw:Vortex_sight, Vortex UH-1 Holographic
 mw:MicroT1, Micro-T1 Sight
-mw:AimpointCompM5, Aimpoint Comp M5 Sight
-mw:RMRsight, RMR Sight
 mw:Kobra, 8-18 Kobra Sight
+mw:G36Scope, UFC G36 Scope
+mw:AUGScope, item.mw_AUGScope.name
+mw:LPScope, Barska AR6 1-6x24 
+mw:Leupold, Leupold Scope
+mw:PSO1, PSO-1 Scope
+mw:PUscope, PU Scope
+mw:PriscopicScope, Priscopic Prism Scope
 mw:HPScope, JPU HP 3-9x40 Scope
-mw:NightRaiderScope, item.mw_NightRaiderScope.name
-mw:m2a1_sight, M2A1 Sight
-mw:F2000Scope, FNPM 1.6x
-mw:M202scope, item.mw_M202scope.name
-mw:MA5Dcover, MA5D ICWS Dust Cover
-mw:BR55scope, BR-DEMROS Scope
-mw:DMRscope, M392-DHO-4M Scope
-mw:SRS99Scope, item.mw_SRS99Scope.name
+mw:Unertl, Unertl Scope
 mw:Silencer556x45, 5.56x45mm NATO Silencer
 mw:Silencer762x39, 7.62x39mm Silencer
-mw:M32Barrel, item.mw_M32Barrel.name
-mw:Silencer9mm, 9(x18/19)mm Silencer
-mw:SilencerMP5, item.mw_SilencerMP5.name
-mw:Silencer9x39mm, 9x39mm Silencer
+mw:Silencer9mm, 9mm Silencer
 mw:Silencer45ACP, .45 ACP Silencer
-mw:silencer_eabh, EABH Silencer
 mw:Silencer762x54, 7.62x54mm Silencer
 mw:Silencer762x51, 7.62x51mm NATO Silencer
 mw:Silencer50BMG, .50 BMG Silencer
 mw:Silencer556x39, 5.45x39mm Silencer
-mw:AKMIron, Standard Iron Sight
-mw:Kar98Ksight, Karabiner Iron Sight
-mw:AK15ironsight, AK12 Iron Sight
+mw:AKMIron, Standard Iron-Sight
 mw:SilencerMP7, 4.6x30mm Silencer
 mw:Silencer357, .357 Silencer
 mw:Silencer57x38, 5.7x28mm Silencer
@@ -10132,367 +9952,352 @@ mw:Silencer300AACBlackout, .300 AAC Blackout Silencer
 mw:Silencer65x39, 6.5x39mm NATO Silencer
 mw:Laser, UTG Tactical Laser
 mw:Laser2, LD19206-IR Tactical Laser
-mw:DanWessonLaser, D&W Laser
 mw:Grip2, Grip
-mw:JunoGrip, Juno Grip
-mw:Glock18Cstock, G18C DRS-HS
 mw:AngledGrip, Angled Grip
 mw:StubbyGrip, Stubby Grip
 mw:VGrip, Foregrip
 mw:Bipod, Bipod
-mw:FatmanGrip, item.mw_FatmanGrip.name
-mw:FatmanRack, item.mw_FatmanRack.name
-mw:MiniNuke, item.mw_MiniNuke.name
-mw:ChainB, item.mw_ChainB.name
-mw:ChainA, item.mw_ChainA.name
-mw:Chain, item.mw_Chain.name
-mw:M32Main1B, item.mw_M32Main1B.name
-mw:M134Barrels, item.mw_M134Barrels.name
-mw:M1897pump, item.mw_M1897pump.name
-mw:Super90Pump, item.mw_Super90Pump.name
-mw:P226Slide, item.mw_P226Slide.name
-mw:PythonChamber, item.mw_PythonChamber.name
-mw:MagnumChamber, item.mw_MagnumChamber.name
-mw:RhinoChamber, item.mw_RhinoChamber.name
-mw:ACRAction, item.mw_ACRAction.name
-mw:M1014Action, item.mw_M1014Action.name
-mw:SupernovaAction, item.mw_SupernovaAction.name
-mw:SupernovaPump, item.mw_SupernovaPump.name
-mw:ACRRails, item.mw_ACRRails.name
-mw:RPG7rocket, item.mw_RPG7rocket.name
-mw:m202rockets, item.mw_m202rockets.name
-mw:SSG42Barrels, item.mw_SSG42Barrels.name
-mw:ChiappaTripleCrownBarrels, item.mw_ChiappaTripleCrownBarrels.name
-mw:QuadBarrelShotgunBarrels, item.mw_QuadBarrelShotgunBarrels.name
-mw:GLgrenade, item.mw_GLgrenade.name
-mw:M79grenade, item.mw_M79grenade.name
-mw:GL06Cartridge, item.mw_GL06Cartridge.name
-mw:M79Cartridge, item.mw_M79Cartridge.name
-mw:M32Cartridge, item.mw_M32Cartridge.name
-mw:M56Mag, item.mw_M56Mag.name
-mw:HAR27Mag, item.mw_HAR27Mag.name
-mw:HAR27Belt, item.mw_HAR27Belt.name
-mw:HAR27Action, item.mw_HAR27Action.name
-mw:M41AMag, item.mw_M41AMag.name
-mw:Type51Mag, item.mw_Type51Mag.name
-mw:MP43Edoublebarrel, item.mw_MP43Edoublebarrel.name
-mw:M1873action, item.mw_M1873action.name
-mw:Type51Action, item.mw_Type51Action.name
-mw:F2000Action, item.mw_F2000Action.name
-mw:MA37Action, item.mw_MA37Action.name
-mw:M20Action, item.mw_M20Action.name
-mw:M392Action, item.mw_M392Action.name
-mw:SRS99Action, item.mw_SRS99Action.name
-mw:MA5DAction, item.mw_MA5DAction.name
-mw:BR55Action, item.mw_BR55Action.name
-mw:G36CAction, item.mw_G36CAction.name
-mw:SL8Action, item.mw_SL8Action.name
-mw:M1A1ThompsonAction, item.mw_M1A1ThompsonAction.name
-mw:KedrAction, item.mw_KedrAction.name
-mw:M1928ThompsonAction, item.mw_M1928ThompsonAction.name
-mw:M1A1ThompsonSight, item.mw_M1A1ThompsonSight.name
-mw:M1928Sight, item.mw_M1928Sight.name
-mw:CSA16pump, item.mw_CSA16pump.name
-mw:M45pump, item.mw_M45pump.name
-mw:R870part, item.mw_R870part.name
-mw:m82action, item.mw_m82action.name
-mw:MP40action, item.mw_MP40action.name
-mw:MP5A5action, item.mw_MP5A5action.name
-mw:mg42belt, item.mw_mg42belt.name
-mw:mg42latch, item.mw_mg42latch.name
-mw:M60Belt, item.mw_M60Belt.name
-mw:M60Hatch, item.mw_M60Hatch.name
-mw:M249Belt, item.mw_M249Belt.name
-mw:M249Hatch, item.mw_M249Hatch.name
-mw:M249Action, item.mw_M249Action.name
-mw:mg42action, item.mw_mg42action.name
-mw:ScarAction, item.mw_ScarAction.name
-mw:Mk14EBRaction, item.mw_Mk14EBRaction.name
-mw:Mk14EBRsight, item.mw_Mk14EBRsight.name
-mw:STG44action, item.mw_STG44action.name
+mw:AR15Iron, AR Carry Handle
+mw:M16A1CarryHandle, item.mw_M16A1CarryHandle.name
+mw:Extra, item.mw_Extra.name
+mw:M3A1sight, item.mw_M3A1sight.name
+mw:LeeEnfieldSMLESight, item.mw_LeeEnfieldSMLESight.name
+mw:PPSHRearSight, item.mw_PPSHRearSight.name
 mw:SpringfieldRearSight, item.mw_SpringfieldRearSight.name
+mw:G98RearSight, item.mw_G98RearSight.name
+mw:M1A1rearsight, item.mw_M1A1rearsight.name
+mw:M1GarandRearSight, item.mw_M1GarandRearSight.name
+mw:M1928rearsight, item.mw_M1928rearsight.name
+mw:M1Garandaction, item.mw_M1Garandaction.name
+mw:Tec9Action, item.mw_Tec9Action.name
+mw:M249Action, item.mw_M249Action.name
+mw:M249Cover, item.mw_M249Cover.name
+mw:LeeEnfieldSMLEaction, item.mw_LeeEnfieldSMLEaction.name
+mw:LeeEnfieldClip, item.mw_LeeEnfieldClip.name
+mw:LeeEnfieldClipBullets, item.mw_LeeEnfieldClipBullets.name
+mw:M3A1GreaseGun, item.mw_M3A1GreaseGun.name
 mw:SpringfieldAction, item.mw_SpringfieldAction.name
 mw:Kar98Kaction, item.mw_Kar98Kaction.name
-mw:Glock18Cslide, item.mw_Glock18Cslide.name
-mw:ESA23Slide, item.mw_ESA23Slide.name
-mw:VP70slide, item.mw_VP70slide.name
-mw:FrommerStopAction, item.mw_FrommerStopAction.name
-mw:FrommerSight, item.mw_FrommerSight.name
-mw:APSslide, item.mw_APSslide.name
-mw:Glock19slide, item.mw_Glock19slide.name
-mw:M712action, item.mw_M712action.name
-mw:M45A1slide, item.mw_M45A1slide.name
-mw:MP443Slide, item.mw_MP443Slide.name
-mw:VSSVintorezAction, item.mw_VSSVintorezAction.name
-mw:AKaction, item.mw_AKaction.name
-mw:Volkaction, item.mw_Volkaction.name
-mw:Type2Mag, item.mw_Type2Mag.name
-mw:Saiga12action, item.mw_Saiga12action.name
-mw:Saiga12sights, item.mw_Saiga12sights.name
-mw:AS50Action, item.mw_AS50Action.name
-mw:M9A1slide, item.mw_M9A1slide.name
-mw:SCCYCPX2Slide, item.mw_SCCYCPX2Slide.name
-mw:DesertEagleSlide, item.mw_DesertEagleSlide.name
-mw:M6Cslide, item.mw_M6Cslide.name
-mw:M6CSOCOMsight, item.mw_M6CSOCOMsight.name
-mw:M6CSOCOMSlide, item.mw_M6CSOCOMSlide.name
-mw:albert01R_slide, item.mw_albert01R_slide.name
-mw:UziAction, item.mw_UziAction.name
-mw:UziRelease, item.mw_UziRelease.name
-mw:UziIronSight, item.mw_UziIronSight.name
-mw:P10Slide, item.mw_P10Slide.name
-mw:P10frontsight, item.mw_P10frontsight.name
-mw:M40A6BoltAction, item.mw_M40A6BoltAction.name
-mw:SV98BoltAction, item.mw_SV98BoltAction.name
-mw:L96Action, item.mw_L96Action.name
-mw:LP115Bolt2, item.mw_LP115Bolt2.name
-mw:L115Mag, item.mw_L115Mag.name
-mw:SV98barrelpiece, item.mw_SV98barrelpiece.name
-mw:M500A2pump, item.mw_M500A2pump.name
-mw:r870pump, item.mw_r870pump.name
-mw:HESCSpump, item.mw_HESCSpump.name
-mw:KS23pump, item.mw_KS23pump.name
-mw:KragAction1, item.mw_KragAction1.name
-mw:KragAction2, item.mw_KragAction2.name
-mw:KragChamber, item.mw_KragChamber.name
-mw:ShotgunShell, 12 Gauge Shotgun Shell
-mw:Shotgun4Gauge, item.mw_Shotgun4Gauge.name
+mw:Gewehr98Action, item.mw_Gewehr98Action.name
+mw:STG44Action, item.mw_STG44Action.name
+mw:M1GarandMag1, item.mw_M1GarandMag1.name
+mw:M1GarandMag2, item.mw_M1GarandMag2.name
+mw:LugerAction1, item.mw_LugerAction1.name
+mw:LugerAction2, item.mw_LugerAction2.name
+mw:WebleyCylinder, item.mw_WebleyCylinder.name
+mw:WebleyBullets, item.mw_WebleyBullets.name
+mw:SKSmag1, item.mw_SKSmag1.name
+mw:SKSmag2, item.mw_SKSmag2.name
+mw:SKSaction, item.mw_SKSaction.name
 mw:Bullet, item.mw_Bullet.name
-mw:LaserProjectile, item.mw_LaserProjectile.name
-mw:MA37Mag, item.mw_MA37Mag.name
-mw:M20Mag, item.mw_M20Mag.name
-mw:M392Mag, item.mw_M392Mag.name
-mw:SRS99Mag, item.mw_SRS99Mag.name
-mw:MA5DMag, item.mw_MA5DMag.name
-mw:BR55Mag, item.mw_BR55Mag.name
-mw:M8A7Mag, item.mw_M8A7Mag.name
-mw:G36CMag, item.mw_G36CMag.name
-mw:NV4Mag, item.mw_NV4Mag.name
-mw:M6CMag, item.mw_M6CMag.name
-mw:M6CSOCOMMag, item.mw_M6CSOCOMMag.name
-mw:P10Mag, item.mw_P10Mag.name
-mw:VolkMag, item.mw_VolkMag.name
+mw:ExtraAR, item.mw_ExtraAR.name
+mw:DupletBarrels, item.mw_DupletBarrels.name
+mw:SVT40action, item.mw_SVT40action.name
+mw:GlockTop, item.mw_GlockTop.name
+mw:P99Slide, item.mw_P99Slide.name
+mw:R700action, item.mw_R700action.name
+mw:M1A1action, item.mw_M1A1action.name
+mw:M1928action, item.mw_M1928action.name
+mw:Saiga12action, item.mw_Saiga12action.name
+mw:MP18action, item.mw_MP18action.name
+mw:PPSH41action, item.mw_PPSH41action.name
+mw:Type100action, item.mw_Type100action.name
+mw:M1CarbineAction, item.mw_M1CarbineAction.name
+mw:M1CarbineRearSight, item.mw_M1CarbineRearSight.name
+mw:Glock21Slide, item.mw_Glock21Slide.name
+mw:Glock32Slide, item.mw_Glock32Slide.name
+mw:MP40action, item.mw_MP40action.name
+mw:G18Top, item.mw_G18Top.name
+mw:M9Top, item.mw_M9Top.name
+mw:AK12IronSight, item.mw_AK12IronSight.name
+mw:M9SDsuppressor, item.mw_M9SDsuppressor.name
+mw:P2000Top, item.mw_P2000Top.name
+mw:DeagleTop, item.mw_DeagleTop.name
+mw:Deagle44Top, item.mw_Deagle44Top.name
+mw:KSGPump, item.mw_KSGPump.name
+mw:L96Action, item.mw_L96Action.name
+mw:SV98Action, item.mw_SV98Action.name
+mw:LP115Bolt2, item.mw_LP115Bolt2.name
+mw:MosinBolt, item.mw_MosinBolt.name
+mw:MosinBolt2, item.mw_MosinBolt2.name
+mw:RevolverCase, item.mw_RevolverCase.name
+mw:PythonCase, item.mw_PythonCase.name
+mw:R870Pump, item.mw_R870Pump.name
+mw:R870PumpTac, item.mw_R870PumpTac.name
+mw:M1911Top, item.mw_M1911Top.name
+mw:Taurus1911Slide, item.mw_Taurus1911Slide.name
+mw:USP45Top, item.mw_USP45Top.name
+mw:MakarovTop, item.mw_MakarovTop.name
+mw:Saiga12sights, item.mw_Saiga12sights.name
+mw:FNP90Sight, item.mw_FNP90Sight.name
+mw:M14Rail, item.mw_M14Rail.name
+mw:M14Action, item.mw_M14Action.name
+mw:M14Action2, item.mw_M14Action2.name
+mw:FamasCarryHandle, item.mw_FamasCarryHandle.name
+mw:FelinCarryHandle, item.mw_FelinCarryHandle.name
+mw:P30Top, item.mw_P30Top.name
+mw:P225Top, item.mw_P225Top.name
+mw:P226Top, item.mw_P226Top.name
+mw:MP5KGrip, item.mw_MP5KGrip.name
+mw:HecateIIBoltAction, item.mw_HecateIIBoltAction.name
 mw:AR15Action, item.mw_AR15Action.name
-mw:NV4Action, item.mw_NV4Action.name
-mw:BrenAction, item.mw_BrenAction.name
-mw:Type2Part, item.mw_Type2Part.name
-mw:Type2Sight, item.mw_Type2Sight.name
-mw:M110Action, item.mw_M110Action.name
-mw:AR15Iron, AR Carry Handle
-mw:Extra, item.mw_Extra.name
-mw:M4Rail, item.mw_M4Rail.name
-mw:MagnumRail, item.mw_MagnumRail.name
-mw:G36CRail, item.mw_G36CRail.name
-mw:RailAlt, item.mw_RailAlt.name
-mw:AACRail, item.mw_AACRail.name
-mw:M110Rail, item.mw_M110Rail.name
+mw:M110action, item.mw_M110action.name
+mw:BushmasterACRAction, item.mw_BushmasterACRAction.name
+mw:RemingtonACRAction, item.mw_RemingtonACRAction.name
+mw:AKIron3, item.mw_AKIron3.name
 mw:AKpart, item.mw_AKpart.name
-mw:AKiron, item.mw_AKiron.name
-mw:AKmuzzle, item.mw_AKmuzzle.name
-mw:CrimsonBlood, item.mw_CrimsonBlood.name
-mw:Chrome, item.mw_Chrome.name
-mw:GodWillsIt, item.mw_GodWillsIt.name
-mw:Murasaki, item.mw_Murasaki.name
-mw:Evangelion, item.mw_Evangelion.name
-mw:Grenade40mm, 40mm Grenade
-mw:mininuke, Mini-Nuke
-mw:m202rocket, M202 Rocket
-mw:rpg7_rocket, RPG-7 Rocket
-mw:EnergyCase, EC 3rd.D Casing
-mw:PlasmaCapsule, Type-2 Plasma Capsule
-mw:BFGammo, Argent Plasma Capsule
-mw:Bullet3006Springfield, .30-06 Springfield Bullet
-mw:Bullet8x58, 8x58mm Bullet
-mw:Bullet792x33Kurz, 7.92x33 Kurz Bullet
-mw:Bullet50BMG, .50 BMG Bullet
-mw:Bullet308Winchester, .308 Winchester Bullet
-mw:Bullet792x57, 7.92x57mm Bullet
-mw:Bullet762x54, 7.62x54mmR Bullet
-mw:Bullet762x51, 7.62x51mm Bullet
-mw:Shotgun12Gauge, 12 Gauge Shotgun Shell
-mw:Shotgun4G, 4 Gauge Shotgun Shell
-mw:Bullet762x35, 7.62x35mm Bullet
-mw:Bullet762x39, 7.62x39mm Bullet
-mw:Bullet556x45, 5.56x45mm NATO Bullet
-mw:Bullet4440, 44-40 Winchester Bullet
-mw:Bullet45ACP, .45 ACP Bullet
-mw:Bullet357, .357 Bullet
-mw:Bullet44, .44 Magnum Bullet
-mw:Bullet500, .500 Magnum Bullet
-mw:Bullet380ACP, .380 ACP Bullet
-mw:Bullet763x25, 7.63x25mm Bullet
+mw:AKpart2, item.mw_AKpart2.name
+mw:AKS74UIron, item.mw_AKS74UIron.name
+mw:AKRail, item.mw_AKRail.name
+mw:AUGRail, item.mw_AUGRail.name
+mw:BushmasterACRRail, item.mw_BushmasterACRRail.name
+mw:RemingtonACRRail, item.mw_RemingtonACRRail.name
+mw:M4Rail, item.mw_M4Rail.name
+mw:G36Rail, item.mw_G36Rail.name
+mw:AKaction, item.mw_AKaction.name
+mw:AN94action, item.mw_AN94action.name
+mw:VSSVintorezAction, item.mw_VSSVintorezAction.name
+mw:AK12action, item.mw_AK12action.name
+mw:M107action, item.mw_M107action.name
+mw:ScarAction, item.mw_ScarAction.name
+mw:G36Action, item.mw_G36Action.name
+mw:FamasAction, item.mw_FamasAction.name
+mw:AUGAction, item.mw_AUGAction.name
+mw:FelinAction, item.mw_FelinAction.name
+mw:FamasBipod1, item.mw_FamasBipod1.name
+mw:FamasBipod2, item.mw_FamasBipod2.name
+mw:Electric, Electric Skin
+mw:Voltaic, Voltaic Skin
+mw:LightningStrike, Lightning Strike Skin
+mw:Fade, Ruby Skin
+mw:Emerald, Emerald Skin
+mw:Diamond, Diamond Skin
+mw:Gold, Gold Skin
+mw:Sapphire, Sapphire Skin
+mw:Desert, Desert Skin
+mw:Forest, Forest Skin
+mw:Amber, Amber Skin
+mw:Arctic, Arctic Skin
+mw:Amethyst, Amethyst Skin
+mw:CrimsonBlood, Crimson Garnet Knife Skin
+mw:Chrome, Chrome Knife Skin
+mw:GodWillsIt, God Wills It Knife Skin
+mw:Murasaki, Murasaki Knife Skin
+mw:Evangelion, Evangelion Knife Skin
+mw:ShotgunShell, 12 Gauge Shotgun Shell
+mw:ShotgunShell410, .410 Shotgun Shell
 mw:Bullet9x39mm, 9x39mm Bullet
-mw:Bullet9x19mm, 9x19mm Bullet
+mw:Bullet8mm, 8x22mm Nambu Bullet
+mw:SMAWRocket, Mk153 SMAW Rocket
+mw:Bullet10x24, 10x24mm Bullet
+mw:Bullet762x21, 7.62x21mm Bullet
+mw:Bullet303British, .303 British Bullet
+mw:Bullet792x33, 7.92x33mm Kurz Bullet
+mw:Bullet792x57, 7.92x57mm Mauser Bullet
+mw:Magnum44Ammo, .44 Bullet
+mw:Bullet455, .455 Webley Mk II Bullet
+mw:Bullet380200, .380/200 Bullet
+mw:Carbine30, .30 Carbine Bullet
+mw:BulletSpringfield3006, .30-06 Springfield Bullet
+mw:Bullet357, .357 Bullet
+mw:Bullet50AE, .50 Action Express Bullet
+mw:Bullet9mm, 9mm Bullet
 mw:Bullet10mm, 10mm Bullet
-mw:FuelCell, (Chainsaw) Fuel Capsule
-mw:M4A1Mag_2, 30rnd 5.56x45mm NATO STANAG Magazine
-mw:M134Mag, 1000rnd 7.62x51mm Magazine
-mw:M60Mag, 100rnd 7.62x51mm Magazine
-mw:M249Mag, 100rnd 5.56x45mm NATO Magazine
-mw:HoneyBadgerMag_2, 30rnd 7.62x35mm AAC Magazine
-mw:M38Mag_2, 30rnd 5.56x45mm NATO PMAG Magazine
-mw:Stanag50, 50rnd 5.56x45mm NATO STANAG Drum Magazine
-mw:Stanag60, 60rnd 5.56x45mm NATO STANAG Drum Magazine
-mw:Stanag100, 100rnd 5.56x45mm NATO STANAG Drum Magazine
-mw:G36CMag_2, 30rnd 5.56x45mm NATO HK Magazine
-mw:AK101Mag_2, 30rnd 5.56x45mm Magazine
-mw:AK60Mag, 60rnd 5.56x45mm Magazine
-mw:AK15Mag_2, 30rnd 7.62x39mm PMAG Magazine
-mw:AK47PMAGTan, 30rnd 7.62x39mm PMAG Magazine (Tan)
-mw:AK47Mag, 30rnd 7.62x39mm Magazine
-mw:AK50Mag, 50rnd 7.62x39mm Drum Magazine
-mw:AK75Mag, 75rnd 7.62x39mm Drum Magazine
-mw:AK100Mag, 100rnd 7.62x39mm Drum Magazine
-mw:SaigaMag_2, 5rnd 12G Magazine
-mw:M9Mag_2, 15rnd 9x19mm Magazine
-mw:sccy_cpx_2_mag, item.mw_sccy_cpx_2_mag.name
-mw:DesertEagleMag, item.mw_DesertEagleMag.name
-mw:M9Mag30, 30rnd 9x19mm Magazine
-mw:M9DrumMag, 65rnd 9x19mm Drum Magazine
-mw:MP443Mag_2, 18rnd 9x19mm 443 Magazine
-mw:M45A1Mag_2, 7rnd .45 ACP Magazine
-mw:M45A1Mag14, 14rnd .45 ACP Magazine
-mw:FrommerStopMag, 8rnd .380 ACP Magazine
-mw:APSMag_2, 20rnd 9x19mm Magazine (APS)
-mw:GlockMag13, 13rnd 9x19mm Magazine
-mw:Glock18Cmag_2, 20rnd 9x19mm Magazine
-mw:GlockMag50, 50rnd 9x19mm Drum Magazine
-mw:AS50Mag_2, 10rnd .50 BMG Magazine (AS50)
-mw:M82Mag_2, 10rnd .50 BMG NATO Magazine
-mw:KBP9A91Mag_2, 20rnd 9x39mm KBP Magazine
-mw:KedrMag_2, 20rnd 9x19mm Magazine (Kedr)
-mw:L96A1Mag_2, 10rnd 7.62x54mm LAPUA Magazine
-mw:M40A6Mag_2, 7rnd .308 Winchester Magazine
-mw:M110Mag_2, 10rnd 7.62x51mm NATO Magazine
-mw:M1928Mag, 50rnd .45 ACP Magazine
-mw:M712mag_2, 20rnd 7.63x25mm Mauser Magazine
-mw:MG42Mag_2, 50rnd 7.92x57mm MG Magazine
-mw:Mk14EBRmag_2, 20rnd 7.62x51mm NATO EBR Magazine
-mw:M14Drum50, 50rnd 7.62x51mm NATO EBR DRUM Magazine
-mw:MP40Mag_2, 32rnd 9x19mm MP Magazine
-mw:MP5A5Mag, 25rnd 9x19mm HK Magazine
-mw:HK50Drum, 50rnd 9x19mm HK Drum Magazine
-mw:ScarHMag_2, 20rnd 7.62x51mm NATO CQC Magazine
-mw:Scar40Mag, 40rnd 7.62x51mm NATO CQC Magazine
-mw:Scar60Mag, 60rnd 7.62x51mm NATO CQC Drum Magazine
-mw:VSSVintorezMag_2, 20rnd 9x39mm Magazine
-mw:STG44Mag_2, 30rnd 7.92x33mm Magazine
-mw:SV98Mag_2, 10rnd 7.62x54mmR Izhmash Magazine
-mw:UziMag_2, 32rnd 9x19mm Magazine
-mw:VP70mag_2, 18rnd 9x19mm Magazine
-mw:m249, item.m249.name
-mw:m40a6, M40A6
-mw:m110_sass, M110 SASS
-mw:m1014, M1014
-mw:super90, Benelli Super-90
-mw:supernova, Benelli Supernova
-mw:m500a2, M500A2
-mw:m38_dmr, M38 DMR
-mw:m16a4, M16A4
-mw:m4a1, M4A1
-mw:colt_m45a1, Colt M45A1
-mw:p226, SIG P226
-mw:m9a1, M9A1 Beretta
-mw:mp_443, MP-443 Grach
-mw:ak15, AK-15
-mw:kbp_9a91, KBP 9A-91 Carbine
-mw:sr3_vikhr, SR-3 Vikhr
-mw:pp91_kedr, PP-91 Kedr
-mw:vss_vintorez, VSS Vintorez
-mw:ks23, KS-23
-mw:sv98, Izhmash SV-98
-mw:mp5a5, HK MP5A5
-mw:scar_l, Mk16 Scar-L
-mw:scar_h_cqc, Mk17 CQC Scar-H
-mw:vp70, VP-70
-mw:glock_19, Glock-19
-mw:sccy_cpx_2, item.sccy_cpx_2.name
-mw:Python, Colt Python
-mw:taurus_raging_hunter, Taurus Raging Hunter .44 Magnum
-mw:chiappa_rhino, item.chiappa_rhino.name
-mw:sw_500_magnum, S&W .500 Magnum
-mw:desert_eagle, IMI Desert Eagle
-mw:albert_01r, Albert-01R
-mw:mp40, MP-40
-mw:m1a1_thompson, M1A1 Thompson
-mw:m1928_thompson, M1928 Thompson
-mw:ak101, AK-101
-mw:ak103_bullpup, AK-103 Bullpup
-mw:acr, Remington ACR
-mw:cz805_bren, CZ-805 Bren
-mw:ak47, AK-47
-mw:stg44, StG-44
-mw:f2000, FN F2000
-mw:g36c, HK G36C
-mw:sl8, HK SL8
-mw:M1873, M1873
-mw:nv4, NV4
-mw:type2, Type-2
-mw:volk, Volk
-mw:m8a7, M8A7
-mw:remington870, Remington-870
-mw:Springfield, M1903 Springfield
-mw:Kar98K, Karabiner-98 Kurz
-mw:Krag_Jorgensen, Krag Jorgensen
-mw:frommer_stop, Frommer Stop
-mw:p10, P10
-mw:glock_18c, Glock-18C
-mw:aps, APS
-mw:m712, M712
-mw:uzi, Uzi
-mw:aac_honey_badger, AAC Honey Badger
-mw:he_standard_combat_shotgun, HE-SCS
-mw:saiga12, Saiga 12
-mw:spas_12, Spas-12
-mw:MP43E, MP-43E
-mw:chiappa_triple_crown, item.chiappa_triple_crown.name
-mw:quad_barrel_shotgun, item.quad_barrel_shotgun.name
-mw:M1897, M1897
-mw:mk14_ebr, Mk14 EBR
-mw:mg42, MG-42
-mw:m60e4, M60E4
-mw:l96a1, L96A1
-mw:as50, AS50
-mw:m82_barrett, M82 Barrett
-mw:gl06, GL-06
-mw:m79, M79 GL
-mw:m32_mgl, M32 MGL
-mw:rpg7, RPG-7
-mw:m202, M202 FLASH
-mw:m134, M134
-mw:csa16, CSA-16
-mw:ssg42, SSG-42 MkII-DS
-mw:har_27, HAR-27
-mw:gpca1, GPC-A1
-mw:m6c, M6C Magnum
-mw:m6c_socom, M6C SOCOM
-mw:m20, M20 PDW
-mw:ma37_icws, MA37 ICWS
-mw:ma5d, MA5D ICWS
-mw:br55, BR-55
-mw:m392, M392 DMR
-mw:m45, M45
-mw:srs99, SRS-99 AMSR
-mw:type51, Type-51
-mw:m41a, M41A 
-mw:m56, M56 ESG
-mw:esa23, ESA-23
-mw:fatman, Fatman
-mw:bfg_9000, BFG 9000
-mw:chainsaw, Chainsaw
-mw:tablet, item.mw_tablet.name
-mw:wcam, item.mw_wcam.name
+mw:Bullet45ACP, .45 ACP Bullet
+mw:Bullet762x39, 7.62x39mm Bullet
+mw:Bullet46x30, 4.6x30mm Bullet
+mw:Bullet57x28, 5.7x28mm Bullet
+mw:Bullet556x39, 5.56x39mm Bullet
+mw:Bullet545x39, 5.45x39mm Bullet
+mw:Bullet762x25, item.mw_Bullet762x25.name
+mw:Bullet556x45, 5.56x45mm NATO Bullet
+mw:Bullet762x54, 7.62x54mm Bullet
+mw:Bullet762x51, 7.62x51mm NATO Bullet
+mw:Bullet308, .308 Winchester Bullet
+mw:Bullet300Blackout, .300 AAC Blackout Bullet
+mw:BMG50, .50 BMG Bullet
+mw:Bullet65x39, 6.5x39mm NATO Bullet
+mw:PythonClip, item.mw_PythonClip.name
+mw:Magazine762x39, 30rnd 7.62x39mm Magazine
+mw:STG44Mag, 30rnd 7.92x33mm Kurz Magazine
+mw:SVT40Mag, 10rnd 7.62x54mm Magazine
+mw:LeeEnfieldMag, 10rnd .303 British Magazine
+mw:Saiga12mag, 5rnd 12 Gauge Shell Magazine
+mw:VEPR12Mag, item.mw_VEPR12Mag.name
+mw:Saiga410Mag, 7rnd .410 Shell Magazine
+mw:Type100Mag, 30rnd 8x22mm Nambu Magazine
+mw:MP18mag, 32rnd 7.62x25mm Drum Magazine
+mw:M1A1mag, 30rnd .45 ACP Box Magazine
+mw:PPSH41Mag, 71rnd 7.52x25mm Tokarev Drum Magazine
+mw:Mag75rnd762x39, 75rnd 7.62x39mm Drum Magazine
+mw:M8A7Mag, 32rnd .300 AAC Blackout Magazine
+mw:PMAG762x39, 30rnd 7.62x39mm PMAG Magazine
+mw:AK15Mag, 30rnd Tan 7.62x39mm Magazine
+mw:AK12Mag, 31rnd 5.45x39mm Magazine
+mw:RPK74MMag, 40rnd 7.62x39mm Magazine
+mw:AK74MMag, 30rnd 5.45x39mm Magazine
+mw:AKS74UMag, 30rnd 5.45x39mm Magazine (Type 2)
+mw:NATOMag1, 30rnd 5.56x45mm NATO Magazine
+mw:MPXmag, 30rnd 9mm Magazine
+mw:Mag308, 10rnd .308 Winchester Magazine
+mw:NATO20rnd, 20rnd 5.56x45mm NATO Magazine
+mw:M16A1Mag, 20rnd 5.56x45mm Magazine (M16A1 Magazine)
+mw:NATO40rnd, 40rnd 5.56x45mm NATO Magazine
+mw:NATOMag2, 30rnd 5.56x45mm NATO PMAG Magazine
+mw:NATOFamasMag, 30rnd 5.56x45mm NATO Magazine (Type 2)
+mw:NATOG36Mag, 30rnd 5.56x45mm NATO Magazine (Type 3)
+mw:DragunovMag, 11rnd 7.62x54mm Magazine
+mw:FALMag, 20rnd 7.62x51mm NATO Magazine
+mw:M110Mag, 10rnd 7.62x51mm NATO Magazine (Type 2)
+mw:HK417Mag, 10rnd 7.62x51mm NATO Magazine
+mw:M14DMRMag, 21rnd 7.62x51mm NATO Magazine
+mw:Glock21Mag, 13rnd .45 ACP Magazine
+mw:LugerP08Mag, 8rnd 7.62x21mm Magazine
+mw:Tec9Mag, 20rnd Tec-9 9mm Magazine
+mw:G18Mag, 20rnd 9mm Magazine
+mw:Glock32Mag, 14rnd .357 Magazine
+mw:M9BerettaMag, 15rnd 9mm Magazine
+mw:Mag10mm, 10rnd 10mm Magazine
+mw:Magazine9mm, 10rnd 9mm Magazine
+mw:NATODrum100, 100rnd 5.56x45mm NATO Beta-C Magazine
+mw:MP40Mag, 32rnd 9mm Magazine
+mw:M3A1Mag, 31rnd .45 ACP Magazine
+mw:VectorMag, 26rnd .45 ACP Magazine
+mw:MP5KMag, 25rnd 9mm Magazine
+mw:Deagle50Mag, 7rnd .50 Action Express Magazine
+mw:VSSVintorezMag, 10rnd 9x39mm Magazine
+mw:ASValMag, 20rnd 9x39mm Magazine
+mw:AS50Mag, 5rnd .50 BMG Magazine (Type 1)
+mw:HecateIIMag, 7rnd .50 BMG Magazine
+mw:FNP90Mag, 50rnd 5.7x28mm Magazine
+mw:M107BMag, 10rnd .50 BMG Magazine (Type 2)
+mw:HKMP7Mag, 20rnd 4.6x30mm Magazine
+mw:M1CarbineMag, 15rnd .30 Carbine Magazine
+mw:M2CarbineMag, 30rnd .30 Carbine Magazine
+mw:L115Mag, 10rnd .308 Winchester Magazine
+mw:SV98Mag, 10rnd 7.62x54mm Magazine
+mw:ColtM1911Mag, 10rnd .45 ACP Magazine
+mw:M249Mag, 200rnd 5.56x45mm NATO Magazine
+mw:Mk48Mag, 100rnd 7.62x51mm Magazine
+mw:MXMag, 30rnd 6.5x39mmm Magazine
+mw:M41AMag, 99rnd 10x24mm Magazine
+mw:ScarHMag, 30rnd .300 AAC Blackout Magazine
+mw:PP19Mag, 65rnd 9mm Magazine
+mw:AK47, AK-47
+mw:AKM, AKM
+mw:AK12, AK-12
+mw:AK15, AK-15
+mw:AKS74U, AKS-74U
+mw:AK74M, AK-74M
+mw:OTs14Groza, OTs-14 Groza
+mw:AN94, AN-94
+mw:M4A1, M4A1
+mw:ACR, Remington ACR
+mw:M416, M416
+mw:POF308, POF .308
+mw:M16A1, M16A1
+mw:M16A4, M16A4
+mw:ScarH, Mk17
+mw:MX, MX
+mw:FNFAL, FN FAL
+mw:M1Carbine, M1A1 Carbine
+mw:M2Carbine, M2 Carbine
+mw:Glock18, Glock-18C
+mw:Glock21, Glock-21
+mw:Glock32, Glock-32
+mw:M9, M9-Beretta
+mw:HKUSP45, HK USP .45
+mw:P99, Walther P99
+mw:Deagle50, .50 AE IMI Desert Eagle
+mw:HKP2000, HK P2000
+mw:P226, P226
+mw:Python, .357 Colt Python
+mw:M1911, M1911
+mw:M1911Taurus, 1911 Taurus
+mw:MakarovPM, Makarov PM
+mw:Tec9, Tec-9
+mw:WebleyMkVI, Webley Mk VI
+mw:EnfieldNo2, Enfield No.2 Mk I
+mw:LugerP08, Luger P08
+mw:Remington870, Remington-870 Express
+mw:KSG12, KSG-12
+mw:M1014, M1014
+mw:SPAS-12, SPAS-12
+mw:QBS09, QBS-09
+mw:Saiga12, Saiga 12
+mw:Saiga410, Saiga-410
+mw:VEPR12, item.VEPR12.name
+mw:G36, HK G36
+mw:G36C, HK G36C
+mw:AUG, AUG
+mw:AUG A3, AUG A3
+mw:Famas, FELIN Famas
+mw:FamasF1, Famas-F1
+mw:HKMP5, HK MP5
+mw:HKMP5K, HK MP5K
+mw:PP19, PP-19 Bizon
+mw:HKMP7, HK MP7
+mw:FNP90, FN P90
+mw:KrissVector, KRISS Vector
+mw:MAC-10, MAC-10
+mw:UDP9, UDP-9
+mw:MPX, SIG MPX
+mw:MP40, MP-40 Maschinenpistole
+mw:MP41, MP-41 Maschinenpistole
+mw:M3A1, M3A1 Grease Gun
+mw:PPSh41, PPSh-41
+mw:Type100, Type-100
+mw:MP18, MP-18
+mw:M1928Thompson, M1928 Thompson
+mw:M1A1Thompson, M1A1 Thompson
+mw:AS50, AS50
+mw:L115A3, L115A3
+mw:SV98, SV-98
+mw:HecateII, PGM Hecate II
+mw:MosinNagantM91-30, Mosin Nagant M91/30
+mw:MosinNagantM91-30PU, Mosin Nagant M91/30 PU
+mw:Dragunov, Dragunov SVD
+mw:VSSVintorez, VSS Vintorez
+mw:M14, M14 DMR
+mw:M21, M21
+mw:M110, M110
+mw:M107, Barrett M107
+mw:M249, M249 SAW
+mw:Mk48MOD1, Mk48 MOD 1
+mw:RPK74M, RPK-74M
+mw:ASVal, AS Val
+mw:HKUMP45, HK UMP-45
+mw:TAR21, TAR-21
+mw:MP9, MP9
+mw:M8A7, M8A7
+mw:M1Garand, M1 Garand
+mw:Remington700, Remington 700
+mw:HK417, HK 417
+mw:SVT40, SVT-40
+mw:SKS, SKS
+mw:M1903A1, Springfield M1903A1
+mw:M1903A3, Springfield M1903A3
+mw:Kar98K, Karabiner 98 Kurz
+mw:Gewehr98, Gewehr 98
+mw:LeeEnfieldSMLEMkIII, Lee Enfield SMLE MkIII
+mw:LeeEnfieldNo4MkI, Lee Enfield No.4 MkI
+mw:LugerArtillerie, P08 Artillerie
+mw:STG44, STG-44 Sturmgewehr
+mw:M41A, M41A
+mw:10mmPistol, 10mm Pistol
+mw:SMAW, Mk153 SMAW
+mw:tablet, Tablet
+mw:wcam, Wireless Camera
 mw:gas-detector, Gas Detector
 mw:GrenadeSafetyPin, item.mw_GrenadeSafetyPin.name
 mw:M67Frag, M67 Frag Grenade
 mw:ImpactGrenade, Impact Grenade
 mw:M18White, M18 Smoke Grenade (White)
 mw:GasGrenade, Gas Grenade
-mw:tactical_tomahawk, Tactical Tomahawk
-mw:baseball_bat, Baseball Bat
-mw:baseball_bat_nails, Baseball Bat w/ Nails
-mw:night_stick, Night Stick
-mw:gas_can, Gas Can (PROP)
+mw:TacKnifeStandard, U.S. Marine Tactical Knife
+mw:Karambit, Karambit Knife
+mw:spawnEggbandit1, item.spawn_egg_bandit1.name
+mw:spawnEgggassy, item.spawn_egg_gassy.name
 OpenComputers:item:27, Арифметико-логическое устройство (АЛУ)
 OpenComputers:item:101, Процессор с видеокартой (APU) (1-ый уровень)
 OpenComputers:item:102, Процессор с видеокартой (APU) (2-ой уровень)
